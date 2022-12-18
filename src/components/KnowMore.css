@@ -1,0 +1,82 @@
+.img-container {
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-container {
+  z-index: -20;
+  background-image: url("../../public/images/img-7.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-box-left-upper {
+  position: absolute;
+  margin-left: 2rem;
+  padding: 1rem;
+  top: 2rem;
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-style: outset;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  position: relative;
+  font-size: 18px;
+  color: #e9d852;
+  -webkit-text-stroke: 0.1px #f69999;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-upper-title {
+  position: inherit;
+  padding: 2px;
+  top: 1.5rem;
+  word-spacing: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.button-km {
+  position: relative;
+  bottom: -5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  color: inherit;
+  margin: 5px;
+  padding: 5px;
+  color: #c7f061;
+  background-color: #491f6d;
+  width: fit-content;
+}
+
+.left-upper-main-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #8a7c16;
+  padding: 5px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.25 rem;
+  margin-left: 0.5 rem;
+  margin-right: 0.5 rem;
+  position: relative;
+  padding: 2px;
+  top: 1.5rem;
+  word-spacing: 0.4rem;
+  letter-spacing: 0.1rem;
+  overflow-y: auto;
+}
