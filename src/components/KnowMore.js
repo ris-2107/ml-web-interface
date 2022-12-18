@@ -5,19 +5,19 @@ import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 
 const bgImg = new URL("../../public/images/img-7.jpg", import.meta.url);
-function Navbar() {
+function KnowMore() {
   return (
     <div>
       <div className="img-container"></div>
       <div className="text-box-left-upper">
         <h2 className="left-upper-title">Sample Heading</h2>
         <p className="left-upper-main-text">
+          This is the main text of the content This is the main text of the is
+          the main text of the content This is the main text of the content This
+          is the main text of the content This is the main text of the content
           This is the main text of the content This is the main text of the
-          is the main text of the
           content This is the main text of the content This is the main text of
-          the content This is the main text of the content This is the main text
-          of the content This is the main text of the content This is the main
-          text of the content This is the main text of the content
+          the content
         </p>
         <Stack spacing={2} direction=" row" className="stack-mui">
           <Link to="/">
@@ -36,4 +36,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default KnowMore;
