@@ -4,7 +4,6 @@ import "./KnowMore.css";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 
-const bgImg = new URL("../../public/images/img-7.jpg", import.meta.url);
 function KnowMore() {
   return (
     <div>
