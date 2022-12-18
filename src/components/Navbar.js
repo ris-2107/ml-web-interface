@@ -5,14 +5,9 @@ import "./Navbar.css";
 const bgImg = new URL("../../public/images/img-7.jpg", import.meta.url);
 function Navbar() {
   return (
-    <>
-      <nav className="navbar">
-        <img src={bgImg} alt="react"></img>
-        <div className="navbar-container">
-          <h1>Navbar</h1>
-        </div>
-      </nav>
-    </>
+    <div>
+      <div className="img-container"></div>
+    </div>
   );
 }
 
