@@ -6,12 +6,36 @@
   background-size: cover;
 }
 
-img {
-  padding: 0;
-  display: block;
-  object-fit: contain;
-  /* margin: 0 auto; */
-  max-height: 60%;
-  max-width: 50%;
-  margin-bottom: 200px;
+.img-container {
+  z-index: -20;
+  background-image: url("../../public/images/d6.png");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main-text-box{
+  position: absolute;
+  top: 20rem;
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.button-km {
+  position: relative;
+  bottom: -5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  color: inherit;
+  margin: 5px;
+  padding: 5px;
+  color: #c7f061;
+  background-color: #491f6d;
+  width: fit-content;
 }
