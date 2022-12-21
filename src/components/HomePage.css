@@ -16,10 +16,11 @@
   background-position: center;
 }
 
-main-text-box{
+.main-text-box{
   position: absolute;
-  top: 20rem;
-  width: 350px;
+  top: 5rem;
+  left:30rem;
+  width: 500px;
   height: 450px;
   display: flex;
   flex-direction: column;
@@ -35,7 +36,7 @@ main-text-box{
   color: inherit;
   margin: 5px;
   padding: 5px;
-  color: #c7f061;
-  background-color: #491f6d;
+  color: #f7faee;
+  background-color: #db79db;
   width: fit-content;
 }
